@@ -1,0 +1,32 @@
+.title {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 66px;
+}
+
+.main_content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.push,
+.menu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.name {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
