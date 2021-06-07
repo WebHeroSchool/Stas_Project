@@ -1,14 +1,14 @@
 .main-content__title {
-  font: bold 50px/66px PT serif, arial, helvetica, sans-serif;
+  font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main-content__description {
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
 }
 
 .main-content__button,
 .menu {
-  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
 }
 
 .logo {
