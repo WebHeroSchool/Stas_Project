@@ -1,12 +1,23 @@
-.main-content__title {
+.main__title {
   font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+  margin: 0 0 40px 0;
 }
 
-.main-content__description {
+.main__title-text_highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ecf3ff 15%);
+}
+
+.main__subtitle {
   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+  margin: 0 0 41px 0;
 }
 
-.main-content__button,
+.main {
+  padding: 0 64% 100px 0;
+  background: top right no-repeat url(img/mainimg.svg);
+}
+
+.main__button,
 .menu {
   font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
 }
@@ -48,6 +59,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .menu {
@@ -60,7 +72,7 @@ body {
   margin-right: 24px;
   color: #000;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .menu__item_active::after {
@@ -107,4 +119,18 @@ body {
 .menu__item:hover:after,
 .menu__item_active:after {
   opacity: 1;
+}
+
+.main__button {
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #fff;
+  background: #0056EC;
+  border-radius: 4px;
+  transition: opacity .5s;
+}
+
+.main__button:hover {
+  opacity: 0.5;
 }
