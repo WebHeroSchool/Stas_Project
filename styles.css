@@ -549,6 +549,11 @@ body {
     background-color: #fff;
   }
 
+  .menu__box,
+  .menu__item {
+    transition-duration: 0.25s;
+  }
+  
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
   }
@@ -571,10 +576,6 @@ body {
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
-    transition-duration: 0.25s;
-  }
-
-  .menu__box, .menu__item {
     transition-duration: 0.25s;
   }
 
@@ -821,7 +822,7 @@ body {
     list-style: none;
     text-align: center;
     background-color: #fff;
-    box-shadow: 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0 rgba(0, 0, 0, 0.2);
   }
 
   .menu__item {
@@ -866,7 +867,7 @@ body {
     transition-duration: 0.25s;
   }
 
-  .menu, 
+  .menu,
   .circles {
     display: none;
   }
