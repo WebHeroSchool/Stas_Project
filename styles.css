@@ -77,15 +77,15 @@ body {
 }
 
 .menu__item::after {
- position: absolute;
- left: 0;
- display: block;
- content: "";
- width: 0;
- height: 3px;
- background: #0056ec;
- opacity: 0;
- transition: opacity 0.5s, width 0.5s;
+  position: absolute;
+  left: 0;
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #0056ec;
+  opacity: 0;
+  transition: opacity 0.5s, width 0.5s;
 }
 
 .menu__item:hover::after {
@@ -843,7 +843,7 @@ body {
     transition-duration: 0.25s;
   }
 
- .menu__btn > span,
+  .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
     transition-duration: 0.25s;
