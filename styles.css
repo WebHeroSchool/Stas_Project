@@ -86,7 +86,7 @@ body {
   background: #0056ec;
 }
 
-.menu__item:after {
+.menu__item::after {
   position: absolute;
   left: 0;
   display: block;
@@ -102,8 +102,8 @@ body {
   opacity: 0.5;
 }
 
-.menu__item:hover:after,
-.menu__item_active:after {
+.menu__item:hover::after,
+.menu__item_active::after {
   opacity: 1;
 }
 
@@ -186,6 +186,7 @@ body {
   .header {
     margin-bottom: 2vh;
   }
+
   .logo {
     width: 40%;
     left: 3vh;
@@ -532,7 +533,7 @@ body {
     list-style: none;
     text-align: center;
     background-color: #fff;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px rgba(0, 0, 0, 0.2);
   }
 
   .menu__item {
@@ -635,7 +636,7 @@ body {
     display: flex;
     margin: 0 5.5vw;
   }
-  
+
   .text-logo {
     display: none;
   }
@@ -872,6 +873,7 @@ body {
   .menu__item {
     transition-duration: 0.25s;
   }
+
   .menu {
     display: none;
   }
@@ -889,7 +891,7 @@ body {
   .main__subtitle {
     font: 500 14px/17px robotobold, arial, helvetica, sans-serif;
   }
-  
+
   .main__button {
     font: 500 12px/14px robotoregular, arial, helvetica, sans-serif;
   }
