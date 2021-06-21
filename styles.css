@@ -862,19 +862,11 @@ body {
     transition-duration: 0.25s;
   }
 
-  .menu__box {
+  .menu__box, .menu__item {
     transition-duration: 0.25s;
   }
 
-  .menu__item {
-    transition-duration: 0.25s;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .circles {
+  .menu, .circles {
     display: none;
   }
 }
