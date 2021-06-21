@@ -866,7 +866,8 @@ body {
     transition-duration: 0.25s;
   }
 
-  .menu, .circles {
+  .menu, 
+  .circles {
     display: none;
   }
 }
