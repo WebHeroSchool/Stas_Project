@@ -508,6 +508,7 @@ body {
     width: 44px;
     height: 6px;
     background-color: #0056ec;
+    transition-duration: 0.25s;
   }
 
   .menu__btn > span::before {
@@ -545,19 +546,13 @@ body {
     text-decoration: none;
   }
 
-  .menu__item:hover {
-    background-color: #fff;
-  }
-
   .menu__box,
   .menu__item {
     transition-duration: 0.25s;
   }
-
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
-    transition-duration: 0.25s;
+  
+  .menu__item:hover {
+    background-color: #fff;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
